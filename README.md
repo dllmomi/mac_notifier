@@ -10,14 +10,6 @@ Add this line to your application's Gemfile:
 gem 'mac_notifier', github: 'dllmomi/mac_notifier'
 ```
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install mac_notifier
-
 ## Usage
 
 simple notification:
