@@ -7,7 +7,7 @@ Mac Notifier is notify "Notification Center" on apple script. simply, and asynch
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'mac_notifier'
+gem 'mac_notifier', github: 'dllmomi/mac_notifier'
 ```
 
 And then execute:
