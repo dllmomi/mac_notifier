@@ -14,26 +14,28 @@ gem 'mac_notifier', github: 'dllmomi/mac_notifier'
 
 simple notification:
 ```ruby
-MacNotifier.notify(
+notification = MacNotifier::Notification.new(
   'notification body',
-  title: 'notification title',
-  subtitle: 'notification subtitle'
+  'title',
+  'subtitle'
 )
+MacNotifier.notify(notification)
 ```
 
 notification with voice:
 ```ruby
-MacNotifier.notify_with_voice(
+notification = MacNotifier::Notification.new(
   'notification body',
-  title: 'notification title',
-  subtitle: 'notification subtitle'
+  'title',
+  'subtitle'
 )
+MacNotifier.notify_with_voice(notification)
 # voice called 'notification body'
 ```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/mac_notifier/fork )
+1. Fork it ( https://github.com/dllmomi/mac_notifier/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

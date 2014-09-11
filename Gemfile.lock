@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mac_notifier (0.0.1)
+    mac_notifier (0.0.2)
 
 GEM
   remote: https://rubygems.org/
@@ -22,7 +22,7 @@ GEM
     pry-byebug (2.0.0)
       byebug (~> 3.4)
       pry (~> 0.10)
-    rake (10.1.0)
+    rake (10.3.2)
     rspec (3.1.0)
       rspec-core (~> 3.1.0)
       rspec-expectations (~> 3.1.0)
