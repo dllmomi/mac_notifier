@@ -2,7 +2,7 @@ require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe 'MacNotifier' do
   let(:notification) { MacNotifier::Notification.new(body, title, subtitle) }
-  context '.notify' do
+  describe '.notify' do
     let(:body) { 'test notification body' }
     let(:title) { 'test notification title' }
     let(:subtitle) { 'test notification subtitle' }
@@ -11,7 +11,7 @@ describe 'MacNotifier' do
 
     it { expect(subject).to be true }
   end
-  context '.notify_with_voice' do
+  describe '.notify_with_voice' do
     let(:body) { 'test notification body' }
     let(:title) { 'test notification title' }
     let(:subtitle) { 'test notification subtitle' }
